@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httpclient (2.7.1)
+    mediawiki-butt (0.10.2)
+      httpclient (>= 2.7.1)
+    terminal-notifier (1.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mediawiki-butt
+  terminal-notifier
+
+BUNDLED WITH
+   1.11.2
