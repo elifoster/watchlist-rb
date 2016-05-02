@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    httpclient (2.7.1)
-    mediawiki-butt (0.11.0)
-      httpclient (>= 2.7.1)
+    httpclient (2.8.0)
+    mediawiki-butt (0.11.1)
+      httpclient (~> 2.8)
     terminal-notifier (1.6.3)
 
 PLATFORMS
