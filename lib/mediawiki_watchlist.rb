@@ -9,7 +9,7 @@ class MediaWikiWatchlist
   def initialize(args = {})
     @api_url = args['api_url']
     @content_url = args['content_url']
-    @client = MediaWiki::Butt.new(@api_url)
+    @client = MediaWiki::Butt.new(@api_url, query_limit_default: 'max', use_continuation: true)
     @client.login(args['username'], args['password'])
     @last_time = nil
     #   TODO
